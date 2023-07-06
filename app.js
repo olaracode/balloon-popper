@@ -24,8 +24,6 @@ function soundEffect() {
  */
 function pop(event) {
   const balloon = event.target;
-  balloon.style.visibility = "hidden";
-  soundEffect();
 }
 
 /**
@@ -93,8 +91,9 @@ function render() {
   balloons.forEach((balloon) => {
     // creamos la funcion dentro del scope de la iteracion
     // para luego poder remover el evento
-    const popBalloon = (e) => {
-      pop(e);
+    const popBalloon = () => {
+      balloon.style.visibility = "hidden";
+      soundEffect();
       count--;
       setCounter(count);
       balloon.removeEventListener("click", popBalloon);
