@@ -1,9 +1,11 @@
-# 🎈💥🎈💥🎈💥 Balloon PopperJS 🎈💥🎈💥🎈💥
+# 🎈💥 Balloon PopperJS 💥🎈
 
 ## Contenido
 
 - [Explicacion](#explicacion)
 - [Incluido](#incluido)
+- [Funcionalidad](#funcionalidad)
+- [Solucion](#solucion)
 
 ## Explicacion
 
@@ -17,7 +19,7 @@ Proyecto de practica creado con javascript, html y css. El objetivo es reventar 
 
 Se incluyen los archivos de sonido y estilos en el mismo documento html para facilitar la descarga y ejecucion del proyecto. El objetivo principal es practicar Javascript, por eso todo lo esencial para replicar el proyecto se encuentra en el mismo documento.
 
-## funcinalidad
+## Funcionalidad
 
 - Cuando cargue la pagina
 
@@ -37,6 +39,6 @@ Se incluyen los archivos de sonido y estilos en el mismo documento html para fac
   - Mostrar un mensaje de felicitaciones
   - Reiniciar el juego despues de x segundos
 
-## Solucion
+## Solución
 
 Para ver la solución del proyecto puedes dirigirte a la rama `solution` o hacer click [aqui](https://github.com/olaracode/balloon-popper/tree/solution)
